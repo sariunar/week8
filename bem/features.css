@@ -1,0 +1,112 @@
+.container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.container-fluid {
+    min-height: 15vh;
+}
+
+.content_logo {
+    margin-top: 3vh;
+}
+
+.content_basket {
+    margin-left: auto;
+}
+
+.container__title {
+    font-family: 'Intro', sans-serif;
+    font-weight: 600;
+    font-size: 3.5em;
+    line-height: 120%;
+    text-transform: uppercase;
+}
+
+.features {
+    margin-top: 20px;
+}
+
+.card-title {
+    text-transform: uppercase;
+    font-family: 'Intro ', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5em;
+    line-height: 120%;
+}
+
+.card-text {
+    font-family: 'Roboto Slab', sans-serif;
+    font-style: normal;
+    font-size: 1em;
+    line-height: 160%;
+}
+
+.subscribe {
+    background-color: #EC615B;
+}
+
+.subscribe__title {
+    color: white;
+}
+
+.subscribe__contact {
+    width: 100%;
+    height: 50px;
+    border: none;
+}
+
+.subscribe_button {
+    background-color: #5222D0;
+    border-radius: 100px;
+    width: 135px;
+    min-height: 38px;
+    border: none;
+    text-align: center;
+    font-family: 'Intro', sans-serif;
+    font-size: 13px;
+    line-height: 13px;
+    font-weight: 600;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin-top: 25px;
+}
+
+.hamburger-menu {
+    display: none;
+}
+
+.footer {
+    min-height: 10vh;
+    width: 100vw;
+    margin-top: 3vh;
+}
+
+.footer__menu {
+    display: flex;
+    justify-content: flex-start;
+    grid-area: menu;
+    margin-left: 8vw;
+}
+
+.footer__menu-link {
+    font-family: 'Roboto Slab';
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 160%;
+    padding-left: 34px;
+    color: #5222D0;
+}
+
+@media screen and (max-width: 991px) {
+    .footer {
+        display: none;
+    }
+
+    .hamburger-menu {
+        display: block;
+        position: absolute;
+        left: 0;
+    }
+}
